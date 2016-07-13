@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button_ChangeCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/camera_preview"
+         android:layout_alignBottom="@+id/camera_preview"
+         android:layout_centerHorizontal="true"
+        android:text="Switch"/>
+
+    <Button
+        android:id="@+id/button_capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/camera_preview"
+        android:layout_centerHorizontal="true"
+        android:text="Capture"  />
+
+    <Button
+        android:id="@+id/button_flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+         android:layout_alignBottom="@+id/camera_preview"
+        android:layout_alignLeft="@+id/camera_preview"
+        android:text="Flash"  />
+    
+     <ZoomControls
+         android:id="@+id/zoomControls"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/camera_preview"
+         android:layout_alignTop="@+id/camera_preview"
+         android:layout_centerVertical="true"
+         android:orientation="horizontal" />
+
+</RelativeLayout>

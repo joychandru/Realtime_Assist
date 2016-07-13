@@ -1,0 +1,398 @@
+/***** Common Style ****/
+body,html
+{
+	border:0px;
+	margin:0px;
+	padding:0px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	background: url("../images/bg.png") no-repeat center center fixed  !important;
+  	-webkit-background-size: 100% 100%  !important; /*cover;*/
+ 	background-size: 100% 100%  !important;;
+ 	backgrund-color:#000  !important;
+}
+a
+{
+	text-decoration:none;	
+}
+.ui-loader {
+  display: none !important;
+}
+.hide
+{
+	display:none !important;
+}
+.show
+{
+	display:visibile !important;
+}
+*
+{
+	border:0px solid yellow;
+	font-family:calibri !important;
+}
+.mainContainer
+{
+	background: url("../images/bg.png") no-repeat center center fixed  !important;
+  	-webkit-background-size: 100% 100%  !important; 
+ 	background-size: 100% 100%  !important;;
+ 	backgrund-color:#000  !important;
+	overflow:hidden !important;
+	
+	
+	width:100%;
+	height:100%;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	top:0px;
+}
+.center_hori_ver
+{
+     display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.header
+{
+	height:50px;
+	widhth:100%;
+	position:relative;
+	top:0px;
+	left:0px;
+}
+.header a.header_left
+{
+	position:relative;
+	width:40px;
+	height:100%;
+	float:left;
+	text-decoration:none;
+	
+	background: url("../images/home.png") center center;
+	background-size:95% 80%;
+	background-repeat:no-repeat;
+	z-index:1000; 
+}
+.header_left:active
+{
+	background-size:100% 100% !important;
+}
+.header div.header_right
+{
+	position:relative;
+	width:40px;
+	height:100%;
+	float:right;
+}
+.header div.header_center
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	text-align:center;
+	font-size:20px;
+	color:#7B2525;
+	font-weight:bold;
+	z-index:0;
+}
+.footer
+{
+	height:15px;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	text-align:center;
+	color:#fff;
+	font-size:11px;
+}
+.mainContent
+{
+	position:relative;
+	width:100%;
+	background-color:rgba(0,0,0,0);
+	border:0px solid red;
+	position:fixed;
+	bottom:15px;
+	right:0px;
+	top:50px;
+	overflow:hidden;
+}
+.submain
+{
+	top:75px !important;
+}
+
+/***** Sub Header Style *****/
+.subheader
+{
+	height:30px;
+	widhth:100%;
+	position:relative;
+	top:-5px;
+	left:0px;
+}
+.subheader div.subheader_left
+{
+	position:relative;
+	width:40px;
+	height:100%;
+	float:left;
+	
+	/*background: url("../images/history.png") center center;
+	background-size:75% 60%;
+	background-repeat:no-repeat;*/
+	z-index:1000; 
+}
+.subheader_left:active
+{
+	background-size:85% 70%; !important;
+}
+.subheader div.subheader_right
+{
+	position:relative;
+	width:auto;
+	height:100%;
+	float:right;
+	padding-right:10px;
+	font-size:12px;
+}
+.subheader div.subheader_center
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	padding-left:20px;
+	 display: -webkit-box ;
+    -webkit-box-align:center !important; 
+    -webkit-box-pack:left !important; 
+	font-size:17px;
+	color:#000;
+	font-weight:bold;
+	z-index:0;
+}
+.scroll_wrapper
+{
+	-webkit-overflow-scrolling:touch;
+	width:96%;
+	margin:0 auto;
+	height:98%;
+	overflow-y:scroll;
+	border:1px solid #A0B4AA;
+	border-radius:4px;
+}
+.subheader div.subheader_right
+{
+	position:relative;
+	width:60px;
+	height:100%;
+	float:right;
+	padding-right:0px;
+	
+	background: url("../images/delete.png") center center;
+	background-size:55% 100%;
+	background-repeat:no-repeat;
+}
+.list_item
+{
+	width:96%;
+	margin:0 auto;
+	margin-top:6px;
+	height:48px;
+	border:1px solid #A0B4AA;
+	border-radius:4px;
+	position:relative;
+	background-color:rgba(0,0,0,0.3);
+}
+.colorEmail
+{
+    color:#EB9408 !important;
+}
+.list_item div.left_content
+{
+	height:100%;
+	width:auto;
+	float:left;
+	position:relative;
+	padding-top:8px;
+	padding-left:5px;
+}
+.list_item div.right_content
+{
+	height:90%;
+	width:40px;
+	float:right;
+	position:relative;
+	margin-right:4px;
+}
+.list_item div.right_content_call
+{
+	background: url("../images/makecall.png") center center;
+	background-size:95% 75%;
+	background-repeat:no-repeat;
+	margin-right:4px;
+}
+.list_item div.right_content_fav
+{
+	background: url("../images/fav_deactive.png") center center;
+	background-size:80% 65%;
+	background-repeat:no-repeat;
+}
+.list_item div.right_content_fav_active
+{
+	background: url("../images/fav_active.png") center center;
+	background-size:80% 65%;
+	background-repeat:no-repeat;
+}
+.left_content div.list_item_title_main
+{
+	width:100%;
+	color:#DAFAE6;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #3F4943;
+}
+.left_content div.list_item_title_sub
+{
+	width:100%;
+	color:#43D9F7;
+	font-weight:bold;
+	text-shadow:0px 0px 5px #3F4943;
+	font-size:12px;
+}
+
+/****************Add New Contact Popup ******************/
+.addNewBoxOverlay
+{
+	position:absolute;
+	z-index:100000;
+	left:0px;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	background-color:rgba(0,0,0,0.7);
+	
+	  display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    border:none;
+}
+.addNewBox
+{
+	height:200px;
+	width:90%;
+	margin:0 auto;
+	border:1px solid rgba(35,90,25,0.9);
+	border-radius:0px 0px 0px 0px;
+	box-shadow:5px 5px 10px rgba(0,0,0,1);
+	background-color:#BBE1B4;
+}
+.boxtitle
+{
+	border-radius:0px 0px 0px 0px;
+	height:45px;
+	background-color:rgba(35,90,25,0.9);
+	width:auto;
+	
+    color:#fff;
+    position:relative;
+    border:1px solid rgba(35,90,25,0.9);
+}
+.boxtitle div
+{
+	position:relative;
+	float:left;
+	height:100%;
+}
+.addNewIcon
+{
+	height:100%;
+	width:40px;
+	display:block;
+	background: url("../images/addnew_contact.png") center center;
+	background-size:70% 70%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	margin-left:0px !important;
+	
+}
+.titleText
+{
+	height:100%;
+	position:relative;
+	float:right;
+	font-size:15px;
+	font-weight:bold;
+}
+.headerRight
+{
+	position:relative;
+	float:right !important;
+}
+.headerButton
+{	
+	width:55px;
+	height:60%;
+	border:1px solid black;
+	border-radius:4px;
+	margin-right:3px;	
+    background-color:rgba(0,0,0,0.8);
+
+    font-size:13px;
+	font-weight:bold;
+	color:#fff;
+}
+.headerButton:active
+{
+	box-shadow:0px 0px 6px #fff;
+}
+.a
+{
+	text-decoration:none;
+	color:#fff !important;
+}
+.contentArea
+{
+	position:relative;
+	height:auto;
+	width:80%;
+}
+.inputType
+{
+	width:87%;
+	margin:10px 0px 0px 7px;
+	height:34px;
+	border:1px solid gray;
+	border-radius:4px;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:5px;
+}
+.inputType_highlight
+{
+	border:1px solid red !important
+}
+.ullist
+{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.pickContact
+{
+	background: url("../images/pick_cont.png") center center;
+	background-size:70% 70%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	margin-left:0px !important;
+	height:80px;
+	width:80px;
+	position:absolute;
+	right:-70px;
+	top:20px;
+}

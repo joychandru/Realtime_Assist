@@ -1,0 +1,396 @@
+/**** Common Styles *************/
+body,html
+{
+	border:0px;
+	margin:0px;
+	padding:0px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	background: url("../images/bg.png") no-repeat center center fixed  !important;
+  	-webkit-background-size: 100% 100%  !important; /*cover;*/
+ 	background-size: 100% 100%  !important;;
+ 	backgrund-color:#000  !important;
+}
+input
+{
+    -webkit-user-select: text !important;
+}
+a
+{
+	text-decoration:none;	
+}
+.ui-loader {
+  display: none !important;
+}
+.hide
+{
+	display:none !important;
+}
+.show
+{
+	display:visibile !important;
+}
+*
+{
+	-webkit-user-select: none;
+	border:0px solid yellow;
+	font-family:calibri !important;
+}
+.mainContainer
+{
+	background: url("../images/bg.png") no-repeat center center fixed  !important;
+  	-webkit-background-size: 100% 100%  !important;
+ 	background-size: 100% 100%  !important;;
+ 	backgrund-color:#000  !important;
+	
+	width:100%;
+	height:100%;
+	position:fixed;
+	padding:0px;
+	margin:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	top:0px;
+	
+	border:0px solid red;
+}
+.center_hori_ver
+{
+     display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.header
+{
+	height:50px;
+	widhth:100%;
+	position:relative;
+	top:0px;
+	left:0px;
+}
+.header a.header_left
+{
+	position:relative;
+	width:40px;
+	height:100%;
+	float:left;
+	text-decoration:none;
+	
+	background: url("../images/home.png") center center;
+	background-size:95% 80%;
+	background-repeat:no-repeat;
+	z-index:1000; 
+}
+.header_left:active
+{
+	background-size:100% 100% !important;
+}
+.header div.header_right
+{
+	position:relative;
+	width:40px;
+	height:100%;
+	float:right;
+}
+.header div.header_center
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	text-align:center;
+	font-size:27px;
+	color:#7B2525;
+	font-weight:bold;
+	z-index:0;
+}
+.footer
+{
+	height:15px;
+	width:100%;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	text-align:center;
+	color:#fff;
+	font-size:11px;
+}
+.mainContent
+{
+	position:relative;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0);
+	border:0px solid red;
+	right:0px;
+	bottom:100px;
+	overflow:hidden;
+}
+.submain
+{
+	top:0px !important;
+}
+
+/***** Sub Header Style *****/
+.subheader
+{
+	height:30px;
+	widhth:100%;
+	position:relative;
+	top:-5px;
+	left:0px;
+}
+.subheader div.subheader_left
+{
+	position:relative;
+	width:40px;
+	height:100%;
+	float:left;
+	
+	background: url("../images/history.png") center center;
+	background-size:75% 60%;
+	background-repeat:no-repeat;
+	z-index:1000; 
+}
+.subheader_left:active
+{
+	background-size:85% 70%; !important;
+}
+.subheader div.subheader_right
+{
+	position:relative;
+	width:auto;
+	height:100%;
+	float:right;
+	padding-right:10px;
+	font-size:12px;
+}
+.subheader div.subheader_center
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	padding-left:40px;
+	 display: -webkit-box ;
+    -webkit-box-align:center !important; 
+    -webkit-box-pack:left !important; 
+	font-size:17px;
+	color:#000;
+	font-weight:bold;
+	z-index:0;
+}
+.scroll_wrapper
+{
+	position:relative;
+	-webkit-overflow-scrolling:touch;
+	width:96%;
+	height:100%;
+	left:0px;
+	top:0px;
+	margin:0 auto;
+	height:98%;
+	overflow-y:scroll;
+	border:1px solid #A0B4AA;
+	border-radius:4px;
+}
+
+.buttonContainer
+{
+	height:100%;
+	margin:0 auto;
+	border:0px solid yellow;
+	position:relative;
+	padding-top:5%;
+	overflow:scroll;
+}
+.buttonRow
+{
+	border:0px solid red;
+	width:98%;
+	margin:0 auto;
+	clear:both;
+	height:20%;
+}
+.buttonBox
+{
+	position:relative;
+	border:0px solid yellow;
+	width:50%;
+	float:left;
+	height:100%;
+}
+.buttonTile
+{
+	height:80px;
+	width:80px;
+    display: -webkit-inline-box;
+    -webkit-box-align: end;
+    -webkit-box-pack:center;
+    color:#fff;
+}
+.btn_tile_history
+{
+	width:120px;
+	background: url("../images/history.png") 0px 0;
+	background-size:75% 60%;
+	background-position:2px 17px;
+	background-repeat:no-repeat;
+}
+.btn_tile_emergency
+{
+	width:160px;
+	background: url("../images/emergency.png") top center;
+	background-size:50% 90%;
+	background-position:center 0px;
+	background-repeat:no-repeat;
+}
+.btn_tile_newincident
+{
+	width:100px;
+	background: url("../images/newincident.png") center center;
+	background-size:45% 70%;
+	background-position:center 14px;
+	background-repeat:no-repeat;
+}
+.btn_tile_profile
+{
+	width:120px;
+	background: url("../images/profile.png") center center;
+	background-size:60% 50%;
+	background-position:center 22px;
+	background-repeat:no-repeat;
+}
+.header_height
+{
+	padding-top:20px;
+	height:70% !important;	
+}
+.centerAlignButton
+{
+	width:100% !important;
+}
+.btn_tile_crashhouse
+{
+	width:120px;
+	background: url("../images/property.png") center center;
+	background-size:55% 55%;
+	background-position:20px 18px;
+	background-repeat:no-repeat;
+}
+.btn_tile_crashcar
+{
+	width:120px;
+	background: url("../images/vehicle.png") center center;
+	background-size:70% 100%;
+	background-position:center -8px;
+	background-repeat:no-repeat;
+}
+.btn_tile_tracklocation
+{
+	width:100px;
+	background: url("../images/satellite.png") center center;
+	background-size:50% 75%;
+	background-position:center 10px;
+	background-repeat:no-repeat;	
+}
+.buttonTileBig
+{
+	height:90px;
+	width:auto;
+    display: -webkit-inline-box;
+    -webkit-box-align: end;
+    -webkit-box-pack:center;
+    color:#fff;
+   
+    font-weight:bold;
+    text-shadow:0px 1px 3px #000;
+}
+.buttonTile
+{
+	width:auto;
+	font-size:15px;
+	font-weight: bold;
+	color:#000;
+	text-shadow:1px 1px 2px #fff;
+}
+/******* Password Protection Overlay *****************/
+.pinOverlay
+{
+	position:absolute;
+	z-index:100000;
+	left:0px;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	background-color:rgba(0,0,0,0.5);
+	
+	  display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    border:none;
+}
+.pinBox
+{
+	height:260px;
+	width:60%;
+	margin:0 auto;
+	border:1px solid rgba(35,90,25,0.9);
+	border-radius:0px 0px 0px 0px;
+	box-shadow:5px 5px 10px rgba(0,0,0,1);
+	background-color:#BBE1B4;
+	position:relative;
+}
+.pinBox div.title
+{
+	width:100%;
+	height:40px;
+	background-color:rgba(35,90,25,0.9);
+	color:#fff;
+	font-weight:bold;
+}
+.pinBox div.pinContent
+{
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:40px;
+	bottom:0px;
+	background-color:rgba(35,90,25,0.1);
+	color:#fff;
+	font-weight:bold;
+}
+.pinBox table
+{
+	width:100%;
+}
+.pinContent input[type="button"]
+{
+	width:100%;
+	padding:5px;
+	border:1px solid green;
+	font-size:17px;
+	font-weight:bold;
+}
+.pinContent input[type="button"]:active
+{
+	box-shadow:0px 0px 10px gray;
+}
+.pinContent input[type="password"]
+{
+	width:80%;
+	margin:0 auto;
+	color:red;
+	border:1px solid green;
+	font-size:16px;
+	font-weight:bold;
+	padding:4px 1px 4px 1px;
+}
+#btnValidatePin
+{
+	background-color:blue;
+	color:#fff;
+}

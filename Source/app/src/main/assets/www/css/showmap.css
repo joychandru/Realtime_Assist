@@ -1,0 +1,331 @@
+/***** Common Styles *************/
+body,html
+{
+	border:0px;
+	margin:0px;
+	padding:0px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	
+	background: url("../images/bg.png") no-repeat center center fixed  !important;
+  	-webkit-background-size: 100% 100%  !important; /*cover;*/
+ 	background-size: 100% 100%  !important;;
+ 	backgrund-color:#000  !important;
+}
+input
+{
+    -webkit-user-select: text !important;
+}
+a
+{
+	text-decoration:none;	
+}
+.ui-loader {
+  display: none !important;
+}
+.hide
+{
+	display:none !important;
+}
+.show
+{
+	display:visibile !important;
+}
+*
+{
+	-webkit-user-select: none;
+	border:0px solid yellow;
+	font-family:calibri !important;
+}
+.mainContainer
+{
+	background: url("../images/bg.png") no-repeat center center fixed  !important;
+  	-webkit-background-size: 100% 100%  !important; 
+ 	background-size: 100% 100%  !important;;
+ 	backgrund-color:#000  !important;
+	overflow:hidden !important;
+	overflow:hidden !important;
+	width:100%;
+	height:100%;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	top:0px;
+}
+.center_hori_ver
+{
+     display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.header
+{
+	height:50px;
+	widhth:100%;
+	position:relative;
+	top:0px;
+	left:0px;
+}
+.header a.header_left
+{
+	position:relative;
+	width:40px;
+	height:100%;
+	float:left;
+	text-decoration:none;
+	
+	background: url("../images/home.png") center center;
+	background-size:95% 80%;
+	background-repeat:no-repeat;
+	z-index:1000; 
+}
+.header_left:active
+{
+	background-size:100% 100% !important;
+}
+.header div.header_right
+{
+	position:relative;
+	width:40px;
+	height:100%;
+	float:right;
+}
+.header div.header_center
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	text-align:center;
+	font-size:20px;
+	color:#7B2525;
+	font-weight:bold;
+	z-index:0;
+}
+.footer
+{
+	height:15px;
+	width:100%;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	text-align:center;
+	color:#fff;
+	font-size:11px;
+}
+.mainContent
+{
+	position:relative;
+	width:100%;
+	background-color:rgba(0,0,0,0);
+	border:0px solid red;
+	position:fixed;
+	bottom:15px;
+	right:0px;
+	top:50px;
+	overflow:hidden;
+}
+.submain
+{
+	top:75px !important;
+}
+
+/***** Sub Header Style *****/
+.subheader
+{
+	height:30px;
+	widhth:100%;
+	position:relative;
+	top:-5px;
+	left:0px;
+}
+.subheader div.subheader_left
+{
+	position:relative;
+	width:40px;
+	height:100%;
+	float:left;
+	
+	background: url("../images/history.png") center center;
+	background-size:75% 60%;
+	background-repeat:no-repeat;
+	z-index:1000; 
+}
+.subheader_left:active
+{
+	background-size:85% 70%; !important;
+}
+.subheader div.subheader_right
+{
+	position:relative;
+	width:auto;
+	height:100%;
+	float:right;
+	padding-right:10px;
+	font-size:12px;
+}
+.subheader div.subheader_center
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	padding-left:40px;
+	 display: -webkit-box ;
+    -webkit-box-align:center !important; 
+    -webkit-box-pack:left !important; 
+	font-size:17px;
+	color:#000;
+	font-weight:bold;
+	z-index:0;
+}
+.scroll_wrapper
+{
+	-webkit-overflow-scrolling:touch;
+	width:96%;
+	margin:0 auto;
+	height:98%;
+	overflow-y:scroll;
+	border:1px solid #A0B4AA;
+	border-radius:4px;
+}
+.vehNoBox
+{
+	width:97%;
+	margin:0 auto;
+	min-height:60px;
+	border:1px solid #A0B4AA;
+	border-radius:4px;
+	position:relative;
+	background-color:rgba(0,0,0,0.3);
+	color:#fff;
+	text-align:center;
+	padding:2px 0px 4px 0px
+}
+.vehNoBox div
+{
+	width:100%;
+	padding:2px;
+}
+.textbox
+{
+	width:70%;
+	margin:0 auto;
+	height:25px;
+	border-radius:6px;
+	padding:3px;
+	color:red;
+	font-weight:bold;
+	font-size:15px;
+}
+.button
+{
+	padding:4px;
+	width:70px;
+	border-radius:5px;
+	font-size:14px;
+	font-weight:bold;
+	box-shadow:1px 1px 4px #000;
+	background-color:#B24B06;
+	color:white;
+}
+.mapArea
+{
+	width:97%;
+	height:97%;
+	margin:0 auto;
+	min-height:50px;
+	border:1px solid #A0B4AA;
+	border-radius:4px;
+	position:absolute;
+	bottom:0px;
+	top:73px;
+	left:5px;
+	right:5px;
+	background-color:#fff;
+	color:#test;
+	text-align:center;
+	padding:2px 0px 4px 0px
+}
+.displayHide
+{
+	display:none;
+}
+.displayShow
+{
+	display:inline;
+}
+.selectedButton
+{
+	background-color:#5D714F !important;
+	color:#F1F5F6 !important;
+}
+.buttonBox
+{
+	width:90%;
+	height:25px;
+	padding:5px 10px 5px 10px;
+	margin:0 auto;
+}
+.buttonStatic
+{
+	width:49%;
+	padding:8px;
+	background-color:#AAADA7;
+	color:#ECE9E9;
+	font-size:12px;
+	font-weight:bold;
+	border-radius:6px 0px 0px 6px;
+	margin:0px;
+	
+}
+.buttonDynamic
+{
+	margin:-2px;
+	width:49%;
+	padding:8px;
+	background-color:#AAADA7;
+	color:#ECE9E9;
+	font-size:12px;
+	font-weight:bold;
+	border-radius:0px 6px 6px 0px;
+}
+.txtlat
+{
+	width:30%;
+	padding:8px;
+	background-color:#fff;
+	color:#000;
+	font-size:12px;
+	font-weight:bold;
+	border-radius:6px 6px 6px 6px;
+	margin:0px;
+	border:1px solid black;
+}
+.txtlong
+{
+	width:30%;
+	padding:8px;
+	background-color:#fff;
+	color:#000;
+	font-size:12px;
+	font-weight:bold;
+	border-radius:6px 6px 6px 6px;
+	margin:0px;
+	border:1px solid black;
+	
+}
+.btnSetLocation
+{
+	margin:-2px;
+	width:20%;
+	padding:8px;
+	background-color:red;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	border-radius:6px 6px 6px 6px;
+}
